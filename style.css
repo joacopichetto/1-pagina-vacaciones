@@ -1,0 +1,336 @@
+
+body {
+    background-image:url(img/fondo.jpg);
+    font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Smokum', cursive;
+font-family: 'Tektur', cursive;
+backdrop-filter: blur(0rem);
+}
+
+
+h1 {
+    border: 20px rgb(26, 26, 201) solid;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    backdrop-filter: blur(0.5rem);
+    padding: 3%;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Smokum', cursive;
+    color: rgb(13, 38, 38);
+}
+
+p {
+    border: 10px rgb(148, 9, 9) solid;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    backdrop-filter: blur(0.5rem);
+    padding-left: 3%;
+    font-size: 40px; 
+    color: rgb(8, 9, 13); 
+    
+    
+}
+div {
+    border: 0px rgb(26, 26, 201) solid;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    backdrop-filter: blur(0.5rem);
+    padding-left: 3%;
+    font-size: 40px; 
+    color: rgb(0, 0, 0); 
+    
+}
+
+
+#carouselExample {
+    border: 0px;
+    width:500px;
+    height: 500px;
+    align-content: center;
+    justify-content: center; 
+    text-align: center;
+    padding: 2px;
+    
+    
+}
+
+#carouselExampleIndicators {
+    width: 500px;
+    height: 500px; 
+}
+#carouselExampleCaptions {
+    width: 500px;
+    height: 500px; 
+}
+#carouselExampleFade {
+    width: 500px;
+    height: 500px;
+}
+#carouselExampleAutoplaying {
+    width: 500px;
+    height: 500px;   
+}
+#carouselExampleRide {
+    width: 500px;
+    height: 500px;   
+}
+#carouselExampleInterval {
+    width: 500px;
+    height: 500px;   
+}
+#carouselExampleSlidesOnly {
+    width: 500px;
+    height: 500px;
+}
+#carouselExampleControlsNoTouching {
+    width: 500px;
+    height: 500px;
+}
+#carouselExampleDark {
+    width: 500px;
+    height: 500px;
+}
+
+.nav_item{ 
+    display: flexbox;
+     margin: 1%; color: rgb(255, 255, 255); 
+     text-shadow: 1px 1px 2px black;
+      backdrop-filter: blur(1.5rem); 
+      border: 5px blue solid; 
+      font-size: 20px;
+       border-radius: 10px; 
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     background-color: blue; }
+.nav_item_titulo {
+    backdrop-filter: blur(1.5rem);
+    background-color: transparent;
+    margin: 1%;
+}
+.nav_item:hover {
+    color: blueviolet;
+}
+#contacto {
+    padding-bottom: 2px;
+    display: inline-block;
+    border:5px solid rgb(241, 25, 209);
+    background-color: deeppink;
+}
+
+
+
+nav{
+    padding: 10%;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 18px;
+}
+header{
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10%;
+}
+
+
+#top10 {
+    border: 0px rgb(0, 128, 255) solid;
+   padding-bottom: 20px;
+  
+}
+
+#top9 {
+    padding: 20px;
+    border: 0px rgb(255, 4, 0) solid;
+    border-radius: 3%;
+   
+}
+#top8 {
+    padding: 40px;
+    border: 0px rgb(17, 0, 255) solid;
+    border-radius: 3%;
+}
+#top7 {
+    padding: 40px;
+    border: 0px rgb(22, 160, 1) solid;
+    border-radius: 3%;
+}
+
+#top6 {
+    padding: 40px;
+    border: 0px rgb(252, 75, 202) solid;
+    border-radius: 3%;
+}
+#top5 {
+    padding: 40px;
+    border: 0px rgb(0, 128, 255) solid;
+    border-radius: 3%;
+}
+#top4 {
+    padding: 40px;
+    border: 0px rgb(174, 2, 2) solid;
+    border-radius: 3%;
+}
+#top3 {
+    padding: 40px;
+    border: 0px chocolate solid;
+    border-radius: 3%;
+}
+#top2 {
+    padding: 40px;
+    border: 0px silver solid;
+    border-radius: 3%;
+}
+#top1 {
+    padding: 40px;
+    border: 0px gold solid;
+    border-radius: 3%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+ .slide {
+    margin-top: 10px;
+    padding-left: 2%;
+ }
+ .slide img  {
+    height: 400px;
+    
+ }
+
+ input {
+    align-items:center;    
+    width: 50%;
+}
+button {
+    width: 50%;
+   background-color: rgb(11, 186, 250); 
+   padding: 5px;
+   color: white;
+   margin: 12px;
+}
+#telefono {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+}
+#nombres    {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    
+    }
+ #correo {
+        width: 100%;
+        padding: 0 5px;
+        height: 40px;
+    }
+        #documento {
+        width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    }
+    #contraseña {
+        width: 100%;
+    padding:5px;
+    height: 40px;
+    
+    }
+    #nombres input:focus~label{
+        top: -5px
+    } 
+    #edad {
+        width: 100%;
+    padding:5px;
+    height: 40px;
+    }
+    #checkbox {
+    
+     width: 100%;
+     padding: 5px;
+     height: 15px; 
+     } 
+     #contact {
+        width: 400px;
+        padding: 20px;
+        background-color: rgb(8, 4, 41);
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 10px;
+        border: 8px solid black;
+        box-shadow:7px 13px 37px #0e0b98 ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: beige;
+        }
+        * {
+            margin: 0; 
+            padding: 0;
+            box-sizing: border-box;
+         }
+         label {
+            color: white;
+            margin-left: 10%;
+            font-size: 20px;
+            font-family: cursive;
+        }
+        #parrafo {
+          border: 0px;
+          font-size: 25px;  
+        }
+        #boffe1 {
+            border: 0px;
+            font-size: 15px;
+        }
+        #boffe2 {
+            border: 0px;
+            font-size: 15px;
+        }
+        #boffe3 {
+            border: 0px;
+            font-size: 15px;
+        }
+        #copy {
+            border: 0px;
+            font-size: 15px;
+        }
+
+.card-text {
+    font-size: 15px;
+    border: 0px;
+    background-color:transparent;
+    backdrop-filter: blur(1.5rem);
+    text-align: center;
+    width: auto;
+    color: rgb(3, 29, 30);
+    padding-right: 10%;
+}
+
+.card-link {
+    font-size: 15px;
+    border: 0px;
+}
+.card {
+    background-color:transparent;
+    backdrop-filter: blur(1.5rem);
+    text-align: center;
+    width: auto;
+    color: rgb(3, 36, 37);
+    border: 3px solid black;
+    font-size: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.card:hover {
+    /* ----------------------------------------------
+  Generated by AnimatiSS
+  Licensed under FreeBSD License
+  URL: https://xsgames.co/animatiss
+  Twitter: @xsgames_
+---------------------------------------------- */
+
+.scale-up-center{animation:scale-up-center 0.4s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
+}
